@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847116867927",
+    "firebase_url": "https://finalproject-bcaf0.firebaseio.com",
+    "project_id": "finalproject-bcaf0",
+    "storage_bucket": "finalproject-bcaf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847116867927:android:18f229e3fd5e6eb9",
+        "android_client_info": {
+          "package_name": "com.ebookfrenzy.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847116867927-bgolvnh0172902kca35nfc4hvor7ko45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebookfrenzy.finalproject",
+            "certificate_hash": "d9121d557adc78cf04930855e24959d21bcef176"
+          }
+        },
+        {
+          "client_id": "847116867927-jd6fj46i2snqh5s0dp45luijegtduj2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtnzRflBbcLGK6qlqhTbcrIz1SqL_ujDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847116867927-jd6fj46i2snqh5s0dp45luijegtduj2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
