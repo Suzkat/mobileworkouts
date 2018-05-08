@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiaryActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:text="Exercise Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/ex1name"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="72dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="1dp"
+        android:text="Sets"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/ex1set"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="65dp"
+        android:layout_height="38dp"
+        android:text="Reps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/ex1reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ex1name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex2name"
+        app:layout_constraintEnd_toStartOf="@+id/ex1set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/ex2name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex3name"
+        app:layout_constraintEnd_toStartOf="@+id/ex2set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex1name" />
+
+    <TextView
+        android:id="@+id/ex3name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex4name"
+        app:layout_constraintEnd_toStartOf="@+id/ex3set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex2name" />
+
+    <TextView
+        android:id="@+id/ex4name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex5name"
+        app:layout_constraintEnd_toStartOf="@+id/ex4set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex3name" />
+
+    <TextView
+        android:id="@+id/ex5name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex6name"
+        app:layout_constraintEnd_toStartOf="@+id/ex5set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex4name" />
+
+    <TextView
+        android:id="@+id/ex6name"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/home_button"
+        app:layout_constraintEnd_toStartOf="@+id/ex6set"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex5name" />
+
+    <TextView
+        android:id="@+id/ex1set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex2set"
+        app:layout_constraintEnd_toStartOf="@+id/ex1reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex1name"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/ex2set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex3set"
+        app:layout_constraintEnd_toStartOf="@+id/ex2reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex2name"
+        app:layout_constraintTop_toBottomOf="@+id/ex1set" />
+
+    <TextView
+        android:id="@+id/ex3set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex4set"
+        app:layout_constraintEnd_toStartOf="@+id/ex3reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex3name"
+        app:layout_constraintTop_toBottomOf="@+id/ex2set" />
+
+    <TextView
+        android:id="@+id/ex4set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex5set"
+        app:layout_constraintEnd_toStartOf="@+id/ex4reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex4name"
+        app:layout_constraintTop_toBottomOf="@+id/ex3set" />
+
+    <TextView
+        android:id="@+id/ex5set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex6set"
+        app:layout_constraintEnd_toStartOf="@+id/ex5reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex5name"
+        app:layout_constraintTop_toBottomOf="@+id/ex4set" />
+
+    <TextView
+        android:id="@+id/ex6set"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/home_button"
+        app:layout_constraintEnd_toStartOf="@+id/ex6reps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex6name"
+        app:layout_constraintTop_toBottomOf="@+id/ex5set" />
+
+    <TextView
+        android:id="@+id/ex1reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex2reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex1set"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/ex2reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex3reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex2set"
+        app:layout_constraintTop_toBottomOf="@+id/ex1reps" />
+
+    <TextView
+        android:id="@+id/ex3reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex4reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex3set"
+        app:layout_constraintTop_toBottomOf="@+id/ex2reps" />
+
+    <TextView
+        android:id="@+id/ex4reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex5reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex4set"
+        app:layout_constraintTop_toBottomOf="@+id/ex3reps" />
+
+    <TextView
+        android:id="@+id/ex5reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/ex6reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex5set"
+        app:layout_constraintTop_toBottomOf="@+id/ex4reps" />
+
+    <TextView
+        android:id="@+id/ex6reps"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/home_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ex6set"
+        app:layout_constraintTop_toBottomOf="@+id/ex5reps" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="340dp"
+        android:layout_height="43dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex6name" />
+
+</android.support.constraint.ConstraintLayout>
