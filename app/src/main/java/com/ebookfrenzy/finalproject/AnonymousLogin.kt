@@ -19,9 +19,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_anonymous_auth.*
 
-/**
- * Activity to demonstrate anonymous login and account linking (with an email/password account).
- */
+
 class AnonymousLogin : BaseActivity(), View.OnClickListener {
 
     private var mAuth: FirebaseAuth? = null
